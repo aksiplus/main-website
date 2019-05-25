@@ -1,19 +1,37 @@
 <template>
   <div>
-    <!-- Masthead -->
-    <header class="masthead">
-      <div class="container h-100">
-        <div class="row h-100 align-items-center justify-content-center text-center">
-          <div class="col-lg-10 align-self-end">
-            <h1 class="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap Themes</h1>
-            <hr class="divider my-4">
+    <header class="masthead text-white text-center" style="background-image: url('https://s.newsweek.com/sites/www.newsweek.com/files/styles/lg/public/2017/09/12/coding-schools-2017.jpg'); height: 650px">
+      <div class="container d-flex align-items-center flex-column">
+
+        <!-- Masthead Avatar Image -->
+
+        <!-- Masthead Heading -->
+        <h1 class="masthead-heading text-uppercase mb-0">Welcome to AKSi+</h1>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
           </div>
-          <div class="col-lg-8 align-self-baseline">
-            <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-          </div>
+          <div class="divider-custom-line"></div>
         </div>
+
+        <!-- Masthead Subheading -->
+        <p class="masthead-subheading font-weight-light mb-0">We Are Able to Make Life Easier With Our Technology</p>
+
       </div>
     </header>
   </div>
 </template>
+
+<script>
+
+import Logo from '../../components/Logo'
+
+export default {
+  components: {
+    Logo
+  }
+}
+</script>

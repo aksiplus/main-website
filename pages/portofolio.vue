@@ -1,96 +1,98 @@
 <template>
   <div>
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-creative/img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption p-3">
-                <div class="project-category text-white-50">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="page-section portfolio" id="portfolio">
+      <div class="container">
 
-    <!-- Call to Action Section -->
-    <section class="page-section bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
+        <!-- Portfolio Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- Portfolio Grid Items -->
+        <div class="row">
+
+          <!-- Portfolio Item 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png" alt="">
+            </div>
+          </div>
+
+          <!-- Portfolio Item 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png" alt="">
+            </div>
+          </div>
+
+          <!-- Portfolio Item 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png" alt="">
+            </div>
+          </div>
+
+          <!-- Portfolio Item 4 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png" alt="">
+            </div>
+          </div>
+
+          <!-- Portfolio Item 5 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/safe.png" alt="">
+            </div>
+          </div>
+
+          <!-- Portfolio Item 6 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png" alt="">
+            </div>
+          </div>
+
+        </div>
+        <!-- /.row -->
+
       </div>
     </section>
   </div>

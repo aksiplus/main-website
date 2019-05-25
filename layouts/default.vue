@@ -12,6 +12,11 @@ import Heading from '../pages/partials/header';
 export default {
   components: {
     Navbar, Heading
+  },
+
+
+  mounted () {
+
   }
 }
 </script>
