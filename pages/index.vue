@@ -1,7 +1,7 @@
 <template>
   <div>
     <heading/>
-    <portofolio/>
+    <product/>
     <about/>
     <contact/>
   </div>
@@ -13,7 +13,7 @@ import Navbar from '../pages/partials/navbar';
 import Heading from '../pages/partials/header';
 import About from '../pages/about';
 import Service from '../pages/services';
-import Portofolio from '../pages/portofolio';
+import Product from '../pages/product/index';
 import Contact from '../pages/contact';
 import Foot from '../pages/partials/footer';
 
@@ -23,7 +23,7 @@ export default {
     title: 'AKSi+'
   },
   components: {
-    Navbar, Heading, About, Service, Portofolio, Contact, Foot
+    Navbar, Heading, About, Service, Product, Contact, Foot
   }
 }
 </script>

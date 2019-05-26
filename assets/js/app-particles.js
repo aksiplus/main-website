@@ -1,32 +1,4 @@
-
-<!DOCTYPE html>
-<html {{ HTML_ATTRS }}>
-
-<head {{ HEAD_ATTRS }}>
-    <!-- Custom fonts for this theme -->
-    <link href="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- Theme CSS -->
-    <link href="https://blackrockdigital.github.io/startbootstrap-freelancer/css/freelancer.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://laragon.org/css/moleculer.css">
-    {{ HEAD }}
-  </head>
-  <body {{ BODY_ATTRS }}>
-    {{ APP }}
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/jquery/jquery.min.js"></script>
-    <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/js/contact_me.js"></script>
-    <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/js/freelancer.min.js"></script>
-
-    <script src="https://laragon.org/js/particles.js"></script>
-    <script>
-    /* -----------------------------------------------
+/* -----------------------------------------------
 /* How to use? : Check the GitHub README
 /* ----------------------------------------------- */
 
@@ -40,7 +12,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 /* Otherwise just put the config content (json): */
 
 particlesJS('particles-js',
-
+  
   {
     "particles": {
       "number": {
@@ -159,7 +131,3 @@ particlesJS('particles-js',
   }
 
 );
-    </script>
-    <!-- <script src="https://raw.githubusercontent.com/VincentGarreau/particles.js/master/demo/js/app.js"></script> -->
-  </body>
-</html>
